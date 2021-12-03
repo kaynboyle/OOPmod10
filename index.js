@@ -140,10 +140,10 @@ const printEmployeePage = () => {
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-header">${member.getRole()}</div>
-                        <h5 class="card-title">${member.getName()}</h5>
-                        <p class="card-text">${member.getId()}</p>
-                        <p class="card-text">${member.getGithub()}</p>
-                        <a class ="card-link" href="https://github.commailto:${member.getEmail()}">${member.getEmail()}</a>
+                        <h5 class="card-header">${member.getName()}</h5>
+                        <p class="card-text">ID:${member.getId()}</p>
+                        <a class="card-text" href="https://github.com/${member.get}">Github:${member.getGithub()}</a>
+                        <a class ="card-link" href="mailto:${member.getEmail()}">Email:${member.getEmail()}</a>
                     </div>
                 </div>
                 `;
@@ -153,10 +153,10 @@ const printEmployeePage = () => {
                 <div class="card text-center"> style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-header">${member.getRole()}</div>
-                        <h5 class="card-title">${member.getName()}</h5>
-                        <p class="card-text">${member.getId()}</p>
-                        <p class="card-text">${member.getOfficeNumber()}</p>
-                        <a class ="card-link" href="mailto:${member.getEmail()}">${member.getEmail()}</a>
+                        <h5 class="card-header">${member.getName()}</h5>
+                        <p class="card-text">ID:${member.getId()}</p>
+                        <p class="card-text">Office Number:${member.getOfficeNumber()}</p>
+                        <a class ="card-link" href="mailto:${member.getEmail()}">Email:${member.getEmail()}</a>
                     </div>
                 </div>
                 `;
@@ -166,10 +166,10 @@ const printEmployeePage = () => {
                 <div class="card text-center" style="width: 18rem;">
                     <div class="card-body">
                         <div class="card-header">${member.getRole()}</div>
-                        <h5 class="card-title">${member.getName()}</h5>
-                        <p class="card-text">${member.getId()}</p>
-                        <p class="card-text">${member.getSchool()}</p>
-                        <a class ="card-link" href="mailto:${member.getEmail()}">${member.getEmail()}</a>
+                        <h5 class="card-header">${member.getName()}</h5>
+                        <p class="card-text">ID:${member.getId()}</p>
+                        <p class="card-text">School:${member.getSchool()}</p>
+                        <a class ="card-link" href="mailto:${member.getEmail()}">Email:${member.getEmail()}</a>
                     </div>
                 </div>
                 `;
